@@ -1,2 +1,1 @@
-# stegaaa
-.....
+# steganografiafornew
