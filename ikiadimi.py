@@ -48,7 +48,13 @@ line-height: 25px;
 text-decoration: none;
 """
 
-st.set_page_config(page_title="Title", page_icon="icon.png", layout="wide")
+st.set_page_config(
+     page_title="Steganografik Bir Yapı Düzeni Uygulaması",
+     page_icon="🧊",
+     layout="wide",
+     initial_sidebar_state="expanded",
+
+ )
 
 tabs = ["Bilgi Gizleme veya Gizlenen Bilgiyi Elde Etme"]
 page = st.sidebar.radio("Sekmeler", tabs)
