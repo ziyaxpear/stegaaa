@@ -48,9 +48,7 @@ line-height: 25px;
 text-decoration: none;
 """
 
-st.set_page_config(
-    page_title="Steganografi Bilimine Yeni Bir Boyut",
-)
+st.set_page_config(page_title="Title", page_icon="icon.png", layout="wide")
 
 tabs = ["Bilgi Gizleme veya Gizlenen Bilgiyi Elde Etme"]
 page = st.sidebar.radio("Sekmeler", tabs)
